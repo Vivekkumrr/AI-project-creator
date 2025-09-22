@@ -36,12 +36,9 @@ python -m venv venv
 venv\Scripts\activate
 
 3. ** Install all Dependencies in requirements.txt file
-pip install -r requirements.txt
 
 4. **Create a .env file in the root folder with the following variables:
 
-OPENAI_API_KEY=your_openai_api_key_here
-JWT_SECRET_KEY=your_random_secret_key
 
 5. Run the App:
 streamlit run app.py
