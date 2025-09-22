@@ -57,17 +57,6 @@ Project Creation
 "Create a portfolio website"
 "Build a weather data analyzer"
 
-Features
-Authentication System with User registration and login
-JWT token-based session management
-Password hashing with SHA-256
-Session persistence across browser refreshes
-
-Project Creation
-Natural language project specification
-Automatic project type detection (web apps, chatbots, data tools, automation)
-Feature recommendations and technology suggestions
-Project complexity estimation
 
 Tech Stack
 Frontend: Streamlit-python
