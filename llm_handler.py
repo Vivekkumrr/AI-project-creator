@@ -3,6 +3,8 @@ from config import OPENAI_API_KEY
 from project_manager import  create_project_from_prompt, save_project_to_db, get_project_template
 import json
 
+
+
 print("🔧 llm_handler.py is loading...")
 print(f"🔧 OPENAI_API_KEY present: {bool(OPENAI_API_KEY)}")
 

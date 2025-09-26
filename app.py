@@ -12,6 +12,11 @@ from database import get_db_connection
 from llm_handler import advanced_llm_response
 from project_manager import get_user_projects
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 def save_chat_history(user_id, message, response):
     """Save chat history to database"""
     conn = get_db_connection()
